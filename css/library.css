@@ -1,3 +1,7 @@
+hatch {
+  position: absolute;
+}
+
 .window {
   display: block;
   margin: 0 auto 1.5em auto;
@@ -167,4 +171,8 @@ rect.default {
 .dropdown-control-menu-option:hover rect,
 .dropdown-control-button:hover text {
   fill: #C7C1C1;
+}
+
+.descriptionText {
+  writing-mode: vertical-lr;
 }
